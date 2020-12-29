@@ -39,7 +39,7 @@ def perfectguess():
                     f.write(str(count))
             print('Print "restart" To Restart The Game Or "quit" To Quit The Game')
             ase = input('>>> ')
-            if ase == 'restart':
+            if ase == 'restartq':
                 perfectguess()
             else:
                 break
